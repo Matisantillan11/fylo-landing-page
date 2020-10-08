@@ -1,7 +1,7 @@
 .footer{
-    height: 140vh;
-    margin-top: 275%;
-    padding: 25% 0;
+    height: 150vh;
+    padding: 55% 0;
+    background: hsl(216, 53%, 9%);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -9,9 +9,6 @@
     margin: 5% ;
 }
 
-footer__container--text{
-
-}
 
 .info__container{
     display:flex;
@@ -24,13 +21,13 @@ footer__container--text{
 }
 
 .info__container .info__container--img{
-    width:25px;
+    width:30px;
     height: 25px;
     margin:0% 3%;
 }
 
 .info__container p{
-    padding: 0 5%;
+    padding: 0 2%;
     font-size: 18px;
 }
 

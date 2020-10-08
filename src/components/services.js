@@ -10,6 +10,7 @@ import './styles/services.css'
 
 
 import WorkHow from './workHow'
+import Comments from './comments'
 
 function ServicesItems(){
     return(
@@ -40,6 +41,8 @@ function ServicesItems(){
             </div>
 
             <WorkHow />
+
+            <Comments/>
         </div>
     )
 }
@@ -47,7 +50,7 @@ function ServicesItems(){
 class Services extends Component{
     render(){
         return(
-            <div className="container">
+            <div >
                 <ServicesItems />
             </div>
         )
