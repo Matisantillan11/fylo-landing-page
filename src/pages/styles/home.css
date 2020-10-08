@@ -1,0 +1,16 @@
+
+:root{
+    --DarkBlueMain:hsl(217, 28%, 15%);
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--DarkBlueMain)
+}
+

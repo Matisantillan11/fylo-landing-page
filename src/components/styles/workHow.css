@@ -1,0 +1,42 @@
+
+.workHow__images{
+    width: 85vw;
+    margin: 5%;
+}
+
+.workHow__texts{
+    width: 90vw;
+    margin: 2% 2.5% 0 2.5%;
+    padding: 5%;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+.workHow__title{
+    font-size: 20px;
+    margin-bottom: 5%;
+    
+}
+
+.workHow__body{
+    font-size:14px;
+    margin-bottom: 5%;
+}
+.workHow__container{
+    display:flex;
+    margin: -3% 2% 5% 5%;
+}
+.workHow__link{
+    color:  hsl(176, 68%, 64%);
+    font-size: 16px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid var(--Cyan);
+    margin: -5% 2% 5% 2%;
+    text-decoration: none;
+}
+
+.workHow__img{
+    margin-top:5%;
+    width: 16px;
+    height: 16px;
+}
