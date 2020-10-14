@@ -50,3 +50,59 @@
     border: none;
     outline: none;
 }
+
+@media screen and (min-width: 600px){
+    .form{
+        
+        margin: -30% 5% 0 5%;
+        
+    }
+    
+}
+
+@media screen and (min-width: 800px){
+    .form{
+        height: 450px;
+        
+    }
+}
+
+@media screen and (min-width: 900px){
+    .form{
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .form{
+        width: 70%;
+        height: 450px;
+        margin: -15% 15% 0 15%;
+        padding: 3%;
+    }
+    .form h3{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 1%;
+    }
+    
+    .form p{
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+
+    .form--buttons{
+       width: 100%;
+    }
+    .form--buttons input{
+        width: 70%;
+        height: 40px;
+        margin-left: 15%;
+    }
+    
+    .form--buttons button{
+        background: var(--Cyan);
+        width: 70%;
+        margin-left: 15%;
+    }
+}

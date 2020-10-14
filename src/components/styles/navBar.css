@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .navbar{
-    width: 95vw;
+    width: 100vw;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,7 +18,7 @@ ul{
     justify-content: center;
     align-items: center;
     list-style: none;
-    width: 100%;
+    width: 60%;
     
 }
 
@@ -27,4 +27,40 @@ li{
     font-weight: 400;
     font-size: 14px;
     color: gray;
+}
+
+@media screen and (min-width: 600px){
+    ul{
+        justify-content:center;
+    } 
+    li{
+        margin-left: 8%
+    }
+}
+
+@media screen and (min-width: 800px){
+    .navbar img{
+        width: 20%;
+        height: 40px;
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .navbar img{
+        width: 10%;
+        height: 40px;
+        margin: 2.5%;
+
+    }
+    ul{
+        width: 70%;
+        height: 40px;
+        justify-content:flex-end;
+        margin: 2.5% 0% 2.5% 2.5%;
+    } 
+    li{
+        font-size: 18px;
+        margin-left: .1%;
+    }
 }

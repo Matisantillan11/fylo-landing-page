@@ -22,16 +22,12 @@
     font-size:14px;
     margin-bottom: 5%;
 }
-.workHow__container{
-    display:flex;
-    margin: -3% 2% 5% 5%;
-}
 .workHow__link{
     color:  hsl(176, 68%, 64%);
     font-size: 16px;
     padding-bottom: 2%;
     border-bottom: 1px solid var(--Cyan);
-    margin: -5% 2% 5% 2%;
+    margin: -5% 2% 5% 0%;
     text-decoration: none;
 }
 
@@ -39,4 +35,38 @@
     margin-top:5%;
     width: 16px;
     height: 16px;
+}
+
+@media screen and (min-width: 800px){
+    .workHow__images{
+        width: 65vw;
+        margin: 5% 15%;
+    }
+    .workHow__title{
+        font-size: 22px; 
+    }
+    
+    .workHow__body{
+        font-size:18px;
+    }
+    .workHow__link{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .workHow{
+        display: flex;
+    }
+
+    .workHow__images{
+        width: 90%;
+        height: 80%;;
+        margin: 5% 15%;
+    }
+    .workHow__texts{
+        width: 50%;
+        margin-top: 5%;
+        padding: 2%;
+    }
 }

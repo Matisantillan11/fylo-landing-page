@@ -16,10 +16,7 @@ class WorkHow extends Component{
                     storage needs.</p>
                     <p className="workHow__body">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
                     attachments required.</p>
-                </div>
-                <div className="workHow__container">
                     <a className="workHow__link"href="/">See how Fylo works <img className="workHow__img"src={Arrow} alt="Arrow"/> </a>
-                    
                 </div>
             </div>
             

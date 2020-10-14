@@ -12,7 +12,7 @@ class Comments extends Component{
             <div>
                 
                 <div className="comments">
-                    <img className="quotes" src={Quotes} alt=""/>
+                    <img className="quotes" src={Quotes} alt="quotes img"/>
                     <div className="comments__card">
                         <p className="comment">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                         <div className="author__container">

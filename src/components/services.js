@@ -16,25 +16,25 @@ function ServicesItems(){
     return(
         <div className="services">
             <div className="service__card">
-                <img className="service__card--img" src={Computer} alt=""/>
+                <img className="service__card--img" src={Computer} alt=" Computer"/>
                 <h4 className="service__card--title">Access your files, anywhere</h4>
                 <p className="service__card--subtitle">The ability to use a smartphone, tablet, or computer to access your account means your 
                 files follow you everywhere.</p>
             </div>
             <div className="service__card">
-                <img className="service__card--img" src={Security} alt=""/>
+                <img className="service__card--img" src={Security} alt="Security"/>
                 <h4 className="service__card--title">Security you can trust</h4>
                 <p className="service__card--subtitle">2-factor authentication and user-controlled encryption are just a couple of the security 
                 features we allow to help secure your files.</p>
             </div>
             <div className="service__card">
-                <img src={Collab}   alt=""/>
+                <img src={Collab}   alt="Collab"/>
                 <h4 className="service__card--title">Real-time collaboration</h4>
                 <p className="service__card--subtitle">Securely share files and folders with friends, family and colleagues for live collaboration. 
                 No email attachments required.</p>
             </div>
             <div className="service__card">
-                <img className="service__card--img"src={Files}alt=""/>
+                <img className="service__card--img"src={Files}alt="Files transfer"/>
                 <h4 className="service__card--title">Store any type of file</h4>
                 <p className="service__card--subtitle">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
                 file types to be securely stored and shared.</p>

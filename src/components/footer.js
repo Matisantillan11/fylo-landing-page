@@ -18,28 +18,28 @@ class Footer extends Component {
         return(
             <div>
                 <div className="footer">
-                    <img src={Logo} alt=""/>
-                    <div className="footer__container--text">
-                        <div className="info__container">
-                            <img src={Location} alt="Location"/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                            dolore magna aliqua</p>
+                    <img src={Logo} alt=""/>   
+                    <div className="footer__container">
+                        <div className="footer__container--text">
+                            <div className="info__container">
+                                <img src={Location} alt="Location"/>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                dolore magna aliqua</p>
+                            </div>
+                            <div>
+                                <div className="info__container">
+                                    <img className="info__container--img" src={Phone} alt="Location"/>
+                                    <p>+1-543-123-4567</p>
+                                </div>
+                                <div className="info__container">
+                                    <img className="info__container--img" src={Email} alt="Location"/>
+                                    <p>example@fylo.com</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="info__container">
-                            <img className="info__container--img" src={Phone} alt="Location"/>
-                            <p>+1-543-123-4567</p>
-                        </div>
-                        <div className="info__container">
-                            <img className="info__container--img" src={Email} alt="Location"/>
-                            <p>example@fylo.com</p>
-                        </div>
-                    </div>
-                    <FooterList />
-                    <div className="social__container">
-                    
-                    </div>
+                        <FooterList />
+                    </div> 
                 </div>
-
                
             </div>
             )

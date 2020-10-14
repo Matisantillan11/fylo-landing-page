@@ -5,7 +5,7 @@
 }
 
 .comments{
-    padding: 20% 2%;
+    padding: 20% 2% 8% 2%;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -43,4 +43,23 @@
 
 .author__description--job{
     font-size: 14px;
+}
+
+@media screen and (min-width: 800px){
+    .comments{
+        padding-top: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .comments{
+        padding: 20% 2% 0% 2%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .comments__card{
+        width: 30%;
+        padding: 2.5%;
+    }
 }
